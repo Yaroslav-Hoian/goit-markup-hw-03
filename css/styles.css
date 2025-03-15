@@ -195,68 +195,81 @@ img {
 }
 
 /* HW3 */
-header {
+.header {
     border-bottom: 1px solid #e7e9fc;
 }
-header .container {
+.header .container {
     display: flex;
     align-items: flex-start;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    padding: 0 15px;
 }
 .header-navigation {
     display: flex;
-    /* margin-left: 156px; */
+    align-items: center;
 }
 .navigation-style {
     display: flex;
-    margin-left: 76px;
     align-items: flex-start;
-    /* justify-content: flex-start; */
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .contacts-style {
     display: flex;
     align-items: flex-start;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .contacts-list {
     display: flex;
     align-items: flex-start;
     gap: 40px;
 }
+.logo {
+    margin-right: 76px;
+}
 
 /* 1 Section */
+.first-section{
+    padding: 188px 0;
+}
 .first-section .container {
     display: flex;
-    /* padding: 188px 472px; */
     flex-direction: column;
     align-items: center;
     gap: 48px;
 }
 .first-section-button-style {
-    display: flex;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
     align-items: center;
     justify-content: flex-start;
     gap: 10px;
     border-radius: 4px;
-    padding: 16px 32px;
+    /* padding: 16px 32px; */
 }
 
 /* 2 Section */
-.second-section .container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    /* padding-top: 116px;
-    padding-bottom: 120px; */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .second-section-list {
     display: flex;
     gap: 24px;
 }
-.second-section-title .second-section-info {
-    display: flex;
-    gap: 8px;
+.second-section-title {
+    margin-bottom: 8px;
 }
 .second-section-list li {
     width: calc((100% - 72px) / 4);
@@ -317,11 +330,7 @@ header .container {
 }
 
 /* Footer */
-.footer .container{
-    /* display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column; */
+.footer {
     padding-top: 100px;
     padding-bottom: 100px;
 }
