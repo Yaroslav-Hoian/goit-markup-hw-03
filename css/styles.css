@@ -49,8 +49,7 @@ img {
 
 .header .container {
     display: flex;
-    align-items: flex-start;
-    padding: 0 15px;
+    align-items: center;
 }
 
 /* Navigation */
@@ -68,6 +67,8 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-logo-style {
@@ -83,12 +84,11 @@ img {
     display: flex;
     align-items: flex-start;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-navigation-link {
     color: #2e2f42;
+    display: block;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -114,12 +114,13 @@ img {
     display: flex;
     align-items: flex-start;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .contacts-link {
     color: #434455;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .contacts-style .contacts-link:hover,
